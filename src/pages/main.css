@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    width: 100%;
+  }
+
+
+
+.board{
+    background-color: black;
+    width: 100%;
+    padding-top: 60px;
+    height: 100vh;
+        
+    color: #fff;text-align: center;
+}
+
+.datad{
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+ 
+    /* background-color: #0000; */
+}
+.datad select {
+    background-color: #0000;
+    border: none;
+    color: #C0C0C0;
+    outline: none;
+}
+ 
+.datad label{
+    color: #C0C0C0;
+    outline: none;
+    margin-left: 5px;
+    font-size: 15px;
+}
+ option{
+    background-color: #0000;
+    color: #C0C0C0;
+}
+.forms{
+    max-width:400px;
+    margin: 50px auto;
+    text-align: center;
+    
+ }
+
+ .forms label{
+    text-align: left;
+    display: block;
+ }
+
+ .forms input{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+     outline: none;
+     color: #ddd;
+     background:transparent;
+     
+  }
+ .forms button{
+    margin-top: 40px;
+    width: 400px;
+    background: #6301A0;
+    color: #C0C0C0;
+    border: 0;
+    padding: 12px;
+     cursor: pointer;
+ }
+
+ .Footered{
+    padding: 30px;
+ }
+ .ridge{
+    width: 120px;
+       margin:20px auto;    
+    border: 4px solid  #C0C0C0 ;
+}
+.ridge:hover{
+    border: 4px solid rgb(255, 255, 255);
+
+}
+
+
+   
+    

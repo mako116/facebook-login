@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  /* overflow: hidden; */
+}
+ 
+.box{
+    width: 100%;
+    background-color: black;
+
+    height: 100vh;
+    color: beige;
+    text-align: center;
+     /* margin-top: 60px; */
+}
+
+.container{
+  max-width: 800px;
+  padding-top: 30px;
+  /* margin: 100px auto; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 100px;
+  padding-left: 50px;
+}
+.container p,
+.data p,
+.middle p,
+.division p{
+transform: rotate(330deg);
+/* text-align: center; */
+}
+
+
+.data{
+  /* width: 100%; */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  top: 110px;
+  
+}
+.set{
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
+.facebook{
+position: relative;
+bottom: 50px;
+z-index: 1000;
+}
+.middle{
+  /* width: 100%; */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  top: 11.5em;
+  margin: 50px 0;
+}
+.spear{
+  position: relative;
+  top: 20px;
+}
+.upward{
+  position: relative;
+  bottom: 10px;
+}
+.downward{
+  position: relative;
+  top: 70px;
+}
+.division{
+  /* width: 100%; */
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1px;
+  padding-right:2px;
+  top: 16.5em;
+}
+.footer{
+  position: relative;
+  top: 180px;
+}
+ 
+.footer h3{
+ margin-bottom: 5px;
+}
+.footer span i{
+ margin: 0 10px;
+}
+.footer span i:hover{
+ color: #ffffff;
+}
+.divs{
+  width: 120px;
+     margin:20px auto;    
+  border: 4px solid rgba(255, 255, 255, 0.5);
+  }
+  .divs:hover{
+    border: 4px solid rgb(255, 255, 255);
+
+  }
+.login a{
+ text-decoration: none;
+ color: #333;
+}
+.login a:hover{
+ color: #ffffff;
+}

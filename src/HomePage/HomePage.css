@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    width: 100%;
+  }
+
+  .HomeWork{
+    /* background: rgba(99, 1, 160, 0.1); */
+     background-color:  #200231;
+    
+    /* height: 100vh; */
+  }
+.NavbarLogo{
+     width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.NavbarLogo p{
+    color: 
+    #6301A0;
+    font-size: 20px;    
+}
